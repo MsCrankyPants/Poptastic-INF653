@@ -4,7 +4,7 @@ require_once('config.php');
 <!DOCTYPE html>
 <html>
 <head>
-	<title>User Registration | PHP</title>
+	<title>Registration Form</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
@@ -40,7 +40,7 @@ require_once('config.php');
 					<input class="form-control" id="password"  type="password" name="password" required>
 					<hr class="mb-3">
 					<input class="btn btn-primary" type="submit" id="register" name="create" value="Sign Up">
-					<a class="btn btn-secondary" href="../index.html" role="button">Go Back</a>
+					<a class="btn btn-secondary" href="../public/index.php" role="button">Go Back</a>
 				</div>
 			</div>
 		</div>
